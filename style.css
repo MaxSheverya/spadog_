@@ -22,9 +22,9 @@ body {
 }
 
 .container {
-    width: 1920px;
+    width: 1620px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu-item {
@@ -32,8 +32,14 @@ body {
     font-size: 24px;
     color: #fff;
     padding: 10px;
-    margin: 32px 50px;
     list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+    background: #121212;
 }
 
 .header-link:hover {
@@ -42,15 +48,14 @@ body {
 
 .menu {
     display: flex;
-    background: #121212;
-    width: 100%;
+    gap: 100px;
 }
 
 .block1-text {
     margin-top: 150px;
 }
 
-.h2 {
+.block1-title {
     font-weight: 400;
     width: 480px;
     font-size: 64px;
@@ -58,35 +63,42 @@ body {
     color: #000;
 }
 
-.h2.text {
+.block1-title.text {
     font-weight: 700;
     font-size: 64px;
     text-transform: capitalize;
     color: #000;
+    display: block;
     margin-top: 20px;
-    margin-bottom: 50px;
 }
 
-.img2 {
+.block1-black-dog {
     width: 800px;
     height: 800px;
     display: flex;
     margin-left: 1px;
 }
 
-.a {
+.block1-button, .block2-button {
+    display: block;
+    text-align: center;
     border-radius: 5px;
     padding: 15px 80px;
+    margin-top: 50px;
     background: #b2ffa6;
     font-size: 24px;
     font-weight: 400;
+    color: #000000;
+    cursor: pointer;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
     background: #121212;
 }
 
-.p {
+.footer-text {
     font-weight: 400;
     font-size: 24px;
     text-transform: capitalize;
@@ -102,18 +114,19 @@ body {
 
 .img {
     border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-top: 56px;
+    margin-bottom: 25px;
 }
 
 .block1 {
     display: flex;
+    justify-content: center;
 }
 
 .block2 {
     background: #efefef;
     display: flex;
+    justify-content: center;
 }
 
 .block2-container {
@@ -124,34 +137,37 @@ body {
     width: 800px;
 }
 
-.img3 {
+.block2-brown-dog {
     width: 742px;
     height: 742px;
 }
 
-.text {
+.block2-container-text {
     font-weight: 400;
     font-size: 32px;
     color: #000;
     margin-top: 30px;
-    margin-bottom: 75px;
 }
 
-.h3 {
+.block2-text-title {
     font-weight: 700;
     font-size: 40px;
     text-transform: capitalize;
     color: #000;
 }
 
-.h4 {
+.block2-button {
+    margin-top: 75px;
+}
+
+.block3-box-title {
     font-weight: 700;
     font-size: 32px;
     text-transform: capitalize;
     color: #000;
 }
 
-.p-1,
+.block3-box-text,
 .p-3,
 .p-4 {
     font-weight: 400;
@@ -161,16 +177,19 @@ body {
 }
 
 .block4 {
+    display: flex;
+    justify-content: center;
     background: #efefef;
-    text-align: center;
 }
 
 .block3 {
     display: flex;
+    justify-content: center;
 }
 
 .block3-container {
     align-items: center;
+    justify-content: space-between;
 }
 
 .img-1 {
@@ -184,7 +203,7 @@ body {
     margin-top: 60px;
     margin-bottom: 10px;
 }
-.p-2 {
+.block4-container-text {
     font-weight: 400;
     font-size: 32px;
     color: #000;
@@ -192,32 +211,30 @@ body {
 }
 
 .block3-div {
-    margin-left: 150px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    width: 930px;
     margin-block: 136px;
     margin-bottom: 136px;
 }
 
 .block3-box {
     display: flex;
-    margin-right: 114px;
 }
 
-.h5 {
+.block4-container-title {
     text-align: center;
     font-weight: 700;
     font-size: 45px;
     text-transform: capitalize;
     color: #000;
-    padding-top: 60px;
 }
 
-.p-66 {
+.block4-item-text {
     font-weight: 600;
     font-size: 24px;
     color: #000;
-    padding-left: 32px;
 }
 
 .dogs-img {
@@ -251,7 +268,6 @@ body {
 .footer-img {
     padding-top: 35px;
     padding-bottom: 35px;
-    padding-left: 150px;
 }
 
 .block4-container {
@@ -259,7 +275,12 @@ body {
     align-items: center;
 }
 
-.a-1 {
+.block4-list {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.block4-button {
     font-weight: 400;
     margin: 80px 0 60px 0;
     font-size: 24px;
@@ -271,4 +292,5 @@ body {
     width: 356px;
     height: 22px;
     align-items: center;
+    cursor: pointer;
 }
